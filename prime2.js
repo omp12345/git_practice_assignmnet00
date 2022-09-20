@@ -1,19 +1,17 @@
-function prime(a){
+function prime(number){
 let factor=0
-for(i=1;i<=a;i++){
-if(a%i==0){
+for(i=1;i<=number;i++){
+
 factor++
 }
 }
 
 if(factor==2){
-return true
+return true;
 {
-return false
+return false;
 }
 let ans=prime(15)
 if(ans==true){
-console.log(" prime")
-}else{
-console.log("not prime")
+console.log("prime")
 }
